@@ -5,10 +5,10 @@
 }
 
 body {
-    background-color: #fff9f4;
     font-family: roboto;
 }
 
+/* root selector */
 :root {
     --main-color: #ff8367;
     --text-color: #363958;
@@ -38,6 +38,7 @@ header {
     background-color: var(--background-color);
     font-weight: 1000;
     position: sticky;
+    background-color: #fff9f4;
 }
 
 header>nav {
@@ -82,6 +83,7 @@ a {
     display: flex;
     align-items: center;
     padding: 15px 30px 80px;
+    background-color: #fff9f4;
 }
 
 #div-1 {
@@ -128,7 +130,7 @@ a {
     padding: 0px 70px;
 }
 
-#section2>h1{
+#section2>h1 {
     padding: 50px 0 5px;
     font-family: bebas;
     font-size: 50px;
@@ -163,37 +165,39 @@ a {
     width: 100%;
 }
 
-#section2>main>div>span{
+#section2>main>div>span {
     display: flex;
     justify-content: space-between;
     padding: 10px 15px;
 }
 
-.para{
+.para {
     padding: 0 15px;
 }
 
 /* section 2 FORMAL SHOES */
 
-#section2>main>div>img{
+#section2>main>div>img {
     width: 100%;
 }
 
 /* section 3 */
-#section3{
+#section3 {
     display: flex;
     justify-content: space-between;
     background-color: #E5E5E5;
     padding: 50px 70px;
     width: 100%;
 }
-#section3>main{
+
+#section3>main {
     width: 50%;
     display: flex;
     flex-direction: column;
     gap: 15px;
 }
-#section3>main>div{
+
+#section3>main>div {
     background-color: white;
     display: flex;
     width: 90%;
@@ -204,20 +208,93 @@ a {
     box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
 }
 
-#section3>main>div>img{
+#section3>main>div>img {
     width: 20%;
 }
 
-#section3>main>div>span{
+#section3>main>div>span {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 
-#section3>div{
+#section3>div {
     width: 50%;
 }
 
-#section3>div>img{
+#section3>div>img {
     width: 100%;
+}
+
+/* section 4 SUBSCRIBE */
+
+#section4 {
+    background-color: #E5E5E5;
+    padding: 10px 70px 50px;
+}
+
+#section4>div {
+    background-color: white;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+    padding: 30px 0 50px;
+}
+
+#section4>div>h2 {
+    padding-bottom: 45px;
+}
+
+#section4>div>input {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid rgb(186, 186, 186);
+    border-radius: 0.24rem;
+    color: #212529;
+    border: 1px solid #ced4da;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    font-size: medium;
+}
+
+#section4>div>button {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    padding: 10px;
+    width: 90px;
+    font-size: medium;
+}
+
+/* section 5 DETAILS */
+
+#section5 {
+    padding: 40px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#section5>main {
+    display: flex;
+    width: 100%;
+}
+
+#section5>main>div {
+    width: 50%;
+}
+
+#section5>main>div>h3 {
+    padding: 15px 0;
+    font-weight: 1000;
+}
+
+#section5>main>div>ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#section5>p {
+    padding: 50px 0 0;
 }
